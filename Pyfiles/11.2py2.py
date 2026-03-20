@@ -1,0 +1,5 @@
+paragraph = input("Enter a paragraph: ")
+find_word = input("Enter the word to find: ")
+replace_word = input("Enter the word to replace it with: ")
+paragraph.replace('replace_word','find_word')
+print(f'Modified paragraph:{paragraph}')
